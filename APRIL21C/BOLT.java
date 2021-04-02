@@ -21,8 +21,8 @@ class BOLT {
         sc.br.close();
         pw.close();
     }
-}
-class Scanner{
+
+static class Scanner{
     BufferedReader br;
     StringTokenizer st;
 
@@ -63,4 +63,5 @@ class Scanner{
         }
         return arr;
     }
+}
 }

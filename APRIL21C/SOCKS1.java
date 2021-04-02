@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class SOCKS1
+class SOCKS
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
