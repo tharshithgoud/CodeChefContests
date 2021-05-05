@@ -2,10 +2,24 @@ import java.util.*;
 import java.io.*;
 
 
-public class MEXSTR {
-    public static void main(String[] args) {
-        
-    }
+
+class MEXSTR {
+    public static void main(String[] args) throws IOException {
+        Scanner sc = new Scanner(System.in);
+        long t = sc.nextLong();
+        while(t-->0){
+            String s = sc.next();
+            long len = s.length();
+            int left = -1;
+            for(int i = 0;i<len;i++){
+                if(s.charAt(i)=='0'){
+                    for(int j = left +1;j<=1;j++){
+                        
+                    }
+                }
+            }
+        }
+	}
     static class Scanner{
         BufferedReader br;
         StringTokenizer st;
